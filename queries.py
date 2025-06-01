@@ -25,7 +25,7 @@ course1.students.add(student4)
 course1.students.remove(student2)
 
 # 7. Retrieve all courses where a particular student is the instructor
-Course.objects.filter(instructor=student1)  # or .filter(instructor__name="John")
+Course.objects.filter(instructor=student1) 
 
 # 8. Retrieve all courses a particular student is enrolled in
 student1.courses.all()
